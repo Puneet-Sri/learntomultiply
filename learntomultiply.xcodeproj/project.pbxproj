@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57F7AFDA212C873600D7367F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7AFD9212C873600D7367F /* AppDelegate.swift */; };
+		57F7AFDC212C873600D7367F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7AFDB212C873600D7367F /* ViewController.swift */; };
+		57F7AFDF212C873600D7367F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F7AFDD212C873600D7367F /* Main.storyboard */; };
+		57F7AFE2212C873600D7367F /* learntomultiply.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57F7AFE0212C873600D7367F /* learntomultiply.xcdatamodeld */; };
+		57F7AFE4212C873600D7367F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7AFE3212C873600D7367F /* Assets.xcassets */; };
+		57F7AFE7212C873600D7367F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F7AFE5212C873600D7367F /* LaunchScreen.storyboard */; };
+		57F7AFF2212C873600D7367F /* learntomultiplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7AFF1212C873600D7367F /* learntomultiplyTests.swift */; };
+		57F7AFFD212C873600D7367F /* learntomultiplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7AFFC212C873600D7367F /* learntomultiplyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57F7AFEE212C873600D7367F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F7AFCE212C873600D7367F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F7AFD5212C873600D7367F;
+			remoteInfo = learntomultiply;
+		};
+		57F7AFF9212C873600D7367F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F7AFCE212C873600D7367F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F7AFD5212C873600D7367F;
+			remoteInfo = learntomultiply;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57F7AFD6212C873600D7367F /* learntomultiply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learntomultiply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F7AFD9212C873600D7367F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57F7AFDB212C873600D7367F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57F7AFDE212C873600D7367F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57F7AFE1212C873600D7367F /* learntomultiply.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = learntomultiply.xcdatamodel; sourceTree = "<group>"; };
+		57F7AFE3212C873600D7367F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57F7AFE6212C873600D7367F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57F7AFE8212C873600D7367F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F7AFED212C873600D7367F /* learntomultiplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learntomultiplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F7AFF1212C873600D7367F /* learntomultiplyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learntomultiplyTests.swift; sourceTree = "<group>"; };
+		57F7AFF3212C873600D7367F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F7AFF8212C873600D7367F /* learntomultiplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learntomultiplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F7AFFC212C873600D7367F /* learntomultiplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learntomultiplyUITests.swift; sourceTree = "<group>"; };
+		57F7AFFE212C873600D7367F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F7AFD3212C873600D7367F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7AFEA212C873600D7367F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7AFF5212C873600D7367F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57F7AFCD212C873600D7367F = {
+			isa = PBXGroup;
+			children = (
+				57F7AFD8212C873600D7367F /* learntomultiply */,
+				57F7AFF0212C873600D7367F /* learntomultiplyTests */,
+				57F7AFFB212C873600D7367F /* learntomultiplyUITests */,
+				57F7AFD7212C873600D7367F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57F7AFD7212C873600D7367F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57F7AFD6212C873600D7367F /* learntomultiply.app */,
+				57F7AFED212C873600D7367F /* learntomultiplyTests.xctest */,
+				57F7AFF8212C873600D7367F /* learntomultiplyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57F7AFD8212C873600D7367F /* learntomultiply */ = {
+			isa = PBXGroup;
+			children = (
+				57F7AFD9212C873600D7367F /* AppDelegate.swift */,
+				57F7AFDB212C873600D7367F /* ViewController.swift */,
+				57F7AFDD212C873600D7367F /* Main.storyboard */,
+				57F7AFE3212C873600D7367F /* Assets.xcassets */,
+				57F7AFE5212C873600D7367F /* LaunchScreen.storyboard */,
+				57F7AFE8212C873600D7367F /* Info.plist */,
+				57F7AFE0212C873600D7367F /* learntomultiply.xcdatamodeld */,
+			);
+			path = learntomultiply;
+			sourceTree = "<group>";
+		};
+		57F7AFF0212C873600D7367F /* learntomultiplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				57F7AFF1212C873600D7367F /* learntomultiplyTests.swift */,
+				57F7AFF3212C873600D7367F /* Info.plist */,
+			);
+			path = learntomultiplyTests;
+			sourceTree = "<group>";
+		};
+		57F7AFFB212C873600D7367F /* learntomultiplyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57F7AFFC212C873600D7367F /* learntomultiplyUITests.swift */,
+				57F7AFFE212C873600D7367F /* Info.plist */,
+			);
+			path = learntomultiplyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F7AFD5212C873600D7367F /* learntomultiply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F7B001212C873600D7367F /* Build configuration list for PBXNativeTarget "learntomultiply" */;
+			buildPhases = (
+				57F7AFD2212C873600D7367F /* Sources */,
+				57F7AFD3212C873600D7367F /* Frameworks */,
+				57F7AFD4212C873600D7367F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learntomultiply;
+			productName = learntomultiply;
+			productReference = 57F7AFD6212C873600D7367F /* learntomultiply.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F7AFEC212C873600D7367F /* learntomultiplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F7B004212C873600D7367F /* Build configuration list for PBXNativeTarget "learntomultiplyTests" */;
+			buildPhases = (
+				57F7AFE9212C873600D7367F /* Sources */,
+				57F7AFEA212C873600D7367F /* Frameworks */,
+				57F7AFEB212C873600D7367F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F7AFEF212C873600D7367F /* PBXTargetDependency */,
+			);
+			name = learntomultiplyTests;
+			productName = learntomultiplyTests;
+			productReference = 57F7AFED212C873600D7367F /* learntomultiplyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57F7AFF7212C873600D7367F /* learntomultiplyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F7B007212C873600D7367F /* Build configuration list for PBXNativeTarget "learntomultiplyUITests" */;
+			buildPhases = (
+				57F7AFF4212C873600D7367F /* Sources */,
+				57F7AFF5212C873600D7367F /* Frameworks */,
+				57F7AFF6212C873600D7367F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F7AFFA212C873600D7367F /* PBXTargetDependency */,
+			);
+			name = learntomultiplyUITests;
+			productName = learntomultiplyUITests;
+			productReference = 57F7AFF8212C873600D7367F /* learntomultiplyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F7AFCE212C873600D7367F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = PSA;
+				TargetAttributes = {
+					57F7AFD5212C873600D7367F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					57F7AFEC212C873600D7367F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57F7AFD5212C873600D7367F;
+					};
+					57F7AFF7212C873600D7367F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57F7AFD5212C873600D7367F;
+					};
+				};
+			};
+			buildConfigurationList = 57F7AFD1212C873600D7367F /* Build configuration list for PBXProject "learntomultiply" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57F7AFCD212C873600D7367F;
+			productRefGroup = 57F7AFD7212C873600D7367F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F7AFD5212C873600D7367F /* learntomultiply */,
+				57F7AFEC212C873600D7367F /* learntomultiplyTests */,
+				57F7AFF7212C873600D7367F /* learntomultiplyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F7AFD4212C873600D7367F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7AFE7212C873600D7367F /* LaunchScreen.storyboard in Resources */,
+				57F7AFE4212C873600D7367F /* Assets.xcassets in Resources */,
+				57F7AFDF212C873600D7367F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7AFEB212C873600D7367F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7AFF6212C873600D7367F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F7AFD2212C873600D7367F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7AFE2212C873600D7367F /* learntomultiply.xcdatamodeld in Sources */,
+				57F7AFDC212C873600D7367F /* ViewController.swift in Sources */,
+				57F7AFDA212C873600D7367F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7AFE9212C873600D7367F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7AFF2212C873600D7367F /* learntomultiplyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F7AFF4212C873600D7367F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7AFFD212C873600D7367F /* learntomultiplyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57F7AFEF212C873600D7367F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F7AFD5212C873600D7367F /* learntomultiply */;
+			targetProxy = 57F7AFEE212C873600D7367F /* PBXContainerItemProxy */;
+		};
+		57F7AFFA212C873600D7367F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F7AFD5212C873600D7367F /* learntomultiply */;
+			targetProxy = 57F7AFF9212C873600D7367F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57F7AFDD212C873600D7367F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F7AFDE212C873600D7367F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57F7AFE5212C873600D7367F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F7AFE6212C873600D7367F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57F7AFFF212C873600D7367F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57F7B000212C873600D7367F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57F7B002212C873600D7367F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learntomultiply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PSA.learntomultiply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57F7B003212C873600D7367F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learntomultiply/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PSA.learntomultiply;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57F7B005212C873600D7367F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learntomultiplyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PSA.learntomultiplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learntomultiply.app/learntomultiply";
+			};
+			name = Debug;
+		};
+		57F7B006212C873600D7367F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learntomultiplyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PSA.learntomultiplyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learntomultiply.app/learntomultiply";
+			};
+			name = Release;
+		};
+		57F7B008212C873600D7367F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learntomultiplyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PSA.learntomultiplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = learntomultiply;
+			};
+			name = Debug;
+		};
+		57F7B009212C873600D7367F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = learntomultiplyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PSA.learntomultiplyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = learntomultiply;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57F7AFD1212C873600D7367F /* Build configuration list for PBXProject "learntomultiply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7AFFF212C873600D7367F /* Debug */,
+				57F7B000212C873600D7367F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F7B001212C873600D7367F /* Build configuration list for PBXNativeTarget "learntomultiply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7B002212C873600D7367F /* Debug */,
+				57F7B003212C873600D7367F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F7B004212C873600D7367F /* Build configuration list for PBXNativeTarget "learntomultiplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7B005212C873600D7367F /* Debug */,
+				57F7B006212C873600D7367F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F7B007212C873600D7367F /* Build configuration list for PBXNativeTarget "learntomultiplyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7B008212C873600D7367F /* Debug */,
+				57F7B009212C873600D7367F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		57F7AFE0212C873600D7367F /* learntomultiply.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				57F7AFE1212C873600D7367F /* learntomultiply.xcdatamodel */,
+			);
+			currentVersion = 57F7AFE1212C873600D7367F /* learntomultiply.xcdatamodel */;
+			path = learntomultiply.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 57F7AFCE212C873600D7367F /* Project object */;
+}
